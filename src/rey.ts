@@ -1,4 +1,4 @@
-export class rey {
+export class Rey {
   regnalYears: number;
   says: string = 'Vais a morir todos!';
 
