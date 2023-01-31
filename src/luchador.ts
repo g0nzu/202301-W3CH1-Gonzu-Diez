@@ -1,4 +1,4 @@
-export class luchador {
+export class Luchador {
   weapon: string;
   skill: number;
   says: string = 'Primero pego y luego pregunto';

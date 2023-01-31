@@ -1,17 +1,26 @@
-import { rey } from './rey';
-import { escudero } from './escudero';
-import { luchador } from './luchador';
+import { Rey } from './rey';
+import { Escudero } from './escudero';
+import { Luchador } from './luchador';
 
-export class asesor {
-  regnalYears: number;
+export class Asesor {
   says: string = 'No sé por qué, pero creo que voy a morir pronto';
-  personajeAsesorado: rey | luchador | escudero | asesor | escudero;
+  personajeAsesorado:
+    | Rey
+    | Luchador
+    | Escudero
+    | Asesor
+    | Escudero
+    | 'Daenerys';
 
   constructor(
-    regnalYears: number,
-    personajeAsesorado: rey | luchador | escudero | asesor | escudero
+    personajeAsesorado:
+      | Rey
+      | Luchador
+      | Escudero
+      | Asesor
+      | Escudero
+      | 'Daenerys'
   ) {
-    this.regnalYears = regnalYears;
     this.personajeAsesorado = personajeAsesorado;
   }
 }

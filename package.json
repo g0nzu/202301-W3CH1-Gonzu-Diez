@@ -1,7 +1,7 @@
 {
-  "name": "week2 - TS",
+  "name": "202301-W3CH1-Gonzu-Diez",
   "version": "1.0.0",
-  "description": "Ejercicios semana 2 . Bootcamp Madrid",
+  "description": "Challenge 1 semana 3 Bootcamp Madrid",
   "main": "index.js",
   "type": "module",
   "scripts": {
